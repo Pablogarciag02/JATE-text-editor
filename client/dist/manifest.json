@@ -31,5 +31,7 @@
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "/",
-  "description": "Take notes with Javascript syntax highlighting!"
+  "description": "Take notes with Javascript syntax highlighting!",
+  "background_color": "#225ca3",
+  "theme_color": "#225ca3"
 }
