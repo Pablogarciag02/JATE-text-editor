@@ -9,6 +9,7 @@
     "server": "cd server nodemon server.js",
     "build": "cd client && npm run build",
     "install": "cd client && npm install",
+    "postinstall": "(cd client && npm install && npm install --dev); (cd server && npm install)",
     "client": "cd client && npm start"
   },
   "keywords": [],
@@ -21,5 +22,9 @@
   "devDependencies": {
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
+
