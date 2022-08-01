@@ -33,7 +33,6 @@ app manifest
 ---
 ## Table of Contents
 - [Installation](###installation-for-dev)
-- [Established-routes-for-the-API](#established-routes-for-the-api)
 - [Credits](#credits)
 - [Licence](#licence)
 - [Features](#features)
